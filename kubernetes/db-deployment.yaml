@@ -26,6 +26,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/aaltice-harbor-project/app:971c881-5b65a1f
+        image: harbor.dev.afsmtddso.com/aaltice-harbor-project/db:90f9480-25f22e5
         ports:
         - containerPort: 5432
